@@ -4,7 +4,7 @@ import Feauture from '../Feauture/Feauture';
 const PriceCard = ({price}) => {
     console.log(price);
     return (
-        <div className='bg-indigo-400 mt-3 rounded-md p-4'>
+        <div className='bg-indigo-400 mt-3 rounded-md p-4 flex flex-col'>
             <h2 className='text-center'>
                 <span className='text-purple-700 text-5xl font-extrabold '>
                     {price.price}
@@ -19,6 +19,7 @@ const PriceCard = ({price}) => {
                 feature={feature}
                 ></Feauture>)
             }
+            <button className='w-full bg-purple-800 py-2 rounded-md text-white font-bold mt-auto'>Buy Now</button>
         </div>
     );
 };
