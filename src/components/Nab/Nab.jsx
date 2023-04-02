@@ -23,7 +23,7 @@ const Nab = () => {
                     <Bars3Icon className="h-6 w-6 text-blue-500" />}
                 </span>
              </div>
-            <ul className={`md:flex absolute md:static pl-8 md:p-2 bg-purple-400 duration-700 ${open ? 'top-6':'-top-96'}`}>
+            <ul className={`md:flex absolute md:static pl-8 md:p-2 bg-purple-400 duration-700 ${open===true ? 'top-6':'-top-96'}`}>
                 {
                     routes.map(route => <Link
                     key={route.id}
