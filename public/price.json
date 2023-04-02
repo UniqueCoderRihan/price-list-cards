@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "membership": "Basic",
+      "price": 25,
+      "features": [
+        "Access to gym facilities only"
+      ]
+    },
+    {
+      "id": 2,
+      "membership": "Premium",
+      "price": 50,
+      "features": [
+        "Access to gym facilities",
+        "Unlimited classes",
+        "1 personal training session per month"
+      ]
+    },
+    {
+      "id": 3,
+      "membership": "Platinum",
+      "price": 100,
+      "features": [
+        "Access to gym facilities",
+        "Unlimited classes",
+        "2 personal training sessions per month",
+        "Spa services"
+      ]
+    }
+  ]
+  
